@@ -31,11 +31,37 @@ form {
     box-shadow: 0 12px 40px rgba(15, 23, 42, 0.18);
 }
 
+.contact-heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
 .contact-title {
-    margin-bottom: 16px;
+    
     text-align: center;
-    font-size: 28px;
-    color: #ffffff;
+    font-size: clamp(2.6rem, 4.2vw, 4.2rem);
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: white;
+
+}
+
+.contact-subtitle {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #e9d5ff;
+    margin-bottom: 20px;
 }
 
 label {

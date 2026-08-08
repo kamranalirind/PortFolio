@@ -81,7 +81,6 @@ nav a:hover{
 
 .btn{
     display:inline-block;
-    /* background:#2563eb; */
     background: linear-gradient(135deg, #cd5ff8, #7a3cff, #2d2d2d);
     color:white;
     text-decoration:none;
@@ -134,7 +133,7 @@ section{
 
 .card{
     
-    background: linear-gradient(135deg, #220f29, #1b0e38, #181717);
+    background: linear-gradient(135deg, #cd5ff8, #7a3cff, #2d2d2d);
     padding:25px;
     text-align:center;
     border-radius:10px;
@@ -154,7 +153,7 @@ section{
 }
 
 .project{
-    background: linear-gradient(135deg, #220f29, #1b0e38, #181717);
+    background: linear-gradient(135deg, #cd5ff8, #7a3cff, #2d2d2d);
     padding:25px;
     border-radius:10px;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
