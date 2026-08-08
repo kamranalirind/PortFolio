@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background:#f5f7fb;
+    /* background: white; */
     color:#333;
 }
 
@@ -84,9 +84,9 @@ nav a:hover{
 }
 
 .hero-img img{
-    width:200px;
-    border-radius:50%;
-    border:6px solid white;
+    width:150px;
+    /* border-radius:50%; */
+    border:2px solid black;
     box-shadow:0 10px 25px rgba(0,0,0,.2);
 }
 
@@ -110,7 +110,7 @@ section{
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
     gap:20px;
 }
 
