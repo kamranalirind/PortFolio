@@ -26,7 +26,7 @@ header{
     top:0;
     width: 100%;
     z-index: 1000;
-    background: #111;
+    background: #111827;
 }
 
 .nav{
@@ -39,7 +39,6 @@ header{
 .logo{
     color:white;
 }
-
 nav a{
     color:white;
     text-decoration:none;
@@ -171,7 +170,7 @@ section{
 }
 
 footer{
-    background:#111;
+    background:#111827;
     color:white;
     text-align:center;
     padding:20px;
@@ -206,4 +205,8 @@ nav a{
     margin:8px;
 }
 
+}
+.link{
+    color: white;
+    text-decoration: none;
 }
