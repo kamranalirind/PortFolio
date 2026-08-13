@@ -116,3 +116,32 @@ button:hover {
         padding: 24px;
     }
 }
+
+input.input-error,
+textarea.input-error {
+    border-color: #f87171;
+    box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.15);
+}
+
+.field-error {
+    display: block;
+    color: #fecaca;
+    font-size: 0.85rem;
+    margin-top: -12px;
+    margin-bottom: 14px;
+}
+
+.form-status {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    min-height: 1.2em;
+}
+
+.form-status-success {
+    color: #86efac;
+}
+
+.form-status-error {
+    color: #fecaca;
+}
